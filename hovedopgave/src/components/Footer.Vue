@@ -1,10 +1,3 @@
-<script setup>
-    const scrollToTop = () => {
-        window.scrollTo({top:0, behavior: 'smooth'})
-    }
-
-</script>
-
 <template>
     <footer class="footer">
         <div class="footer__content">

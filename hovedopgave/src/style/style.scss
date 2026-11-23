@@ -163,3 +163,286 @@ li{
     }
   }
 }
+
+.footer{
+  position: relative;
+  background-color: c.$color-tertiary;
+
+  &__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.9fr;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+  }
+
+  &__column{
+    min-width: 0;
+  }
+
+  &__heading{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+  }
+
+  &__title{
+    text-transform: uppercase;
+    margin: 35px 0 10px;
+  }
+
+  &__contact{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  &__contact-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__icon{
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  &__contact-text{
+    text-decoration: none;
+  }
+
+  &__contact-text-link{
+    transition: color 0.3s ease;
+
+    &:hover{
+      color: aquamarine;
+    }
+  }
+
+  &__socials{
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  &__socials-item{
+    display: flex;
+  }
+
+  &__social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    &:hover{
+      background-color: chartreuse;
+      border-color: chartreuse;
+      transform: translateY(-3px);
+    }
+  }
+
+  &__social-icon{
+    object-fit: contain;
+  }
+
+  &__links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__links-item{
+    position: relative;
+    padding-left: 18px;
+    &::before{
+      content: "";
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+  }
+
+  &__link{
+    transition: color 0.3s ease;
+    &:hover,
+    &--active{
+      color:chartreuse
+    }
+  }
+
+  &__column--about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__logo{
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  &__logo-image{
+    display: block;
+    max-width: 100%;
+  }
+
+  &__text{
+    margin: 0 0 20px;
+  }
+
+  &__text-link{
+    display: inline;
+    color: chartreuse;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    &:hover{
+      color: brown;
+      text-decoration: underline;
+    }
+  }
+
+  &__script{
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 25px;
+  }
+
+  &__bottom{
+    width: min(100% - 40px, 1500px);
+    margin: 0 auto;
+    border-top: 1px solid #383838;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__copyright{
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  &__copyright-link{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    &:hover{
+      color: #f5f5f5;
+    }
+  }
+
+  &__payments{
+    object-fit: contain;
+  }
+
+  @media(max-width: 1000px;){
+    padding-top: 70px;
+
+    &__content{
+      grid-template-columns: 1fr 1fr;
+      gap: 50px 40px;
+      padding-bottom: 70px;
+    }
+
+    &__column--about{
+      grid-column: 1 /-1;
+    }
+
+    &__logo-image{
+      width: 380px;
+    }
+
+    &__bottom{
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 600px){
+    padding-top: 50px;
+
+    &__content{
+      grid-template-columns: 1fr;
+      gap: 45px;
+      width: min(100% - 40px, 500px);
+      padding-bottom: 50px;
+    }
+
+    &__column--about{
+      grid-column: auto;
+    }
+
+    &__heading{
+      margin-bottom: 25px;
+    }
+
+    &__contact{
+      gap: 25px;
+    }
+
+    &__contact-item{
+      gap: 15px;
+    }
+
+    &__contact-text{
+      overflow-wrap: anywhere;
+    }
+
+    &__icon{
+      width: 32px;
+      height: 32px;
+    }
+
+    &__socials{
+      margin-top: 35px;
+      gap: 10px;
+    }
+
+    &__links{
+      gap: 15px;
+    }
+
+    &__logo-image{
+      width: 100%;
+      max-width: 350px;
+    }
+
+    &__title{
+      margin-top: 25px;
+    }
+
+    &__script{
+      width: 250px;
+    }
+
+    &__bottom{
+      width: min(100% - 40px, 500px);
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 25px 0;
+    }
+
+    &__payments{
+      width: 220px;
+    }
+  }
+
+}
