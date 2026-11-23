@@ -70,7 +70,7 @@ const toggleItem = (name) => {
           <li>
             <button class="header__item" :aria-expanded="openItem === 'sport'" @click="toggleItem('sport')">Sportsfag</button>
             <ul v-show="openItem === 'sport'" class="header__submenu">
-              <li><RouterLink :to="{ name: '' }" @click="toggle">Drengefodbold</RouterLink></li>
+              <li><RouterLink :to="{ name: '' }" @click="toggle">Drengefodbold</RouterLink></li>  
               <li><RouterLink :to="{ name: '' }" @click="toggle">Pigefodbold</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Håndbold</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Spinning</RouterLink></li>
