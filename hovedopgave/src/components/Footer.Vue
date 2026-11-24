@@ -8,7 +8,15 @@
                 <ul class="footer__contact">
                     <li class="footer__contact-item">
                         <img class="footer__icon" src="../assets/" alt="Pin ikon" width="20" height="20">
-                        <address class="footer__contact-text">Vesterågade 60<br>5672 Broby</address>
+                        <a 
+                            class="footer__contact-text footer__contact-text-link" 
+                            href="https://www.google.com/maps/place/Broby+Sportsefterskole/@55.2503472,10.2209578,17z/data=!3m1!4b1!4m6!3m5!1s0x464cd9e533741701:0x2faf67eaaf784d76!8m2!3d55.2503472!4d10.2209578!16s%2Fg%2F1thq8gf2?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Find Vesterågade 60, 5672 Broby på Google Maps (åbner i nyt vindue)"
+                        >
+                            <address class="footer__contact-text">Vesterågade 60<br>5672 Broby</address>
+                        </a>
                     </li>
                     <li class="footer__contact-item">
                         <img class="footer__icon" src="../assets/" alt="Mail icon" width="20" height="20">
@@ -66,16 +74,17 @@
             <!-- Kolonne 3: Om skolen -->
             <section class="footer__column footer__column--about" aria-labelledby="footer-about-heading">
                 <RouterLink class="footer__logo" :to="{name: 'home'}" aria-label="Broby Sportsefterskole - gå til forside">
-                    <img class="footer__logo-image" src="../assets/logo.png" alt="Logo" height="100" width="auto">
+                    <img class="footer__logo-image" src="../assets/logo.png" alt="Broby Sportsefterskole logo" height="100" width="auto">
                 </RouterLink>
 
                 <h3 id="footer-about-heading" class="footer__title">Efterskolen med muligheder</h3>
-                <p class="footer__text">Vi vil være en efterskole, der giver dig rigtig mange muligheder for at vælge mellem vores mange valgfag. Du har mulighed for at vælge mindst tre forskellige valgfag om ugen.</p>
-                <RouterLink class="footer__text-link" :to="{name:''}">fodbold</RouterLink>,<RouterLink class="footer__text-link" :to="{name:''}">Spring</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">pigefodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">badminton</RouterLink>,
-                <RouterLink class="footer__text-link" :to="{name:''}">beachvolley</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">dans</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">madlavning</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">fitness</RouterLink>,
-                <RouterLink class="footer__text-link" :to="{name:''}">håndbold</RouterLink>,<RouterLink class="footer__text-link" :to="{name:''}">løb</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">kajak</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">surf og kite</RouterLink>,
-                <RouterLink class="footer__text-link" :to="{name:''}">mountainbike</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">musik</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">crossfit</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">spinning</RouterLink>,
-                <RouterLink class="footer__text-link" :to="{name:''}">styrketræning</RouterLink>, og <RouterLink class="footer__text-link" :to="{name:''}">svømning</RouterLink>.
+                <p class="footer__text">Vi vil være en efterskole, der giver dig rigtig mange muligheder for at vælge mellem vores mange valgfag. Du har mulighed for at vælge mindst tre forskellige valgfag om ugen.
+                    <RouterLink class="footer__text-link" :to="{name:''}">fodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">Spring</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">pigefodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">badminton</RouterLink>,
+                    <RouterLink class="footer__text-link" :to="{name:''}">beachvolley</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">dans</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">madlavning</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">fitness</RouterLink>,
+                    <RouterLink class="footer__text-link" :to="{name:''}">håndbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">løb</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">kajak</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">surf og kite</RouterLink>,
+                    <RouterLink class="footer__text-link" :to="{name:''}">mountainbike</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">musik</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">crossfit</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">spinning</RouterLink>,
+                    <RouterLink class="footer__text-link" :to="{name:''}">styrketræning</RouterLink> og <RouterLink class="footer__text-link" :to="{name:''}">svømning</RouterLink>.
+                </p>
                 <p class="footer__text">Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.</p>
                 <img class="footer__script" src="../assets/" alt="Vi ses på Broby">
             </section>
