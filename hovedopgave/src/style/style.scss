@@ -10,7 +10,7 @@
 body{
     height: 100%;
     overflow-x: hidden;
-    background-color: c.$color-senary;
+
 }
 
 
@@ -147,6 +147,10 @@ li{
     text-align: left;
     font: inherit;
     cursor: pointer;
+
+    &:hover {
+      color: c.$color-quinary;
+    }
   }
 
   &__heading {
@@ -164,6 +168,46 @@ li{
 
     &--plain li {
       padding-left: 64px;
+    }
+  }
+
+
+  @media (min-width: 900px) {
+    display: flex;
+    align-items: center;
+    background: none;
+
+    &__button {
+      display: none;
+    }
+
+    &__menu-wrapper {
+      position: static;
+      flex: 1;
+      width: auto;
+      padding-right: 20px;
+      overflow: visible;
+      pointer-events: auto;
+    }
+
+    &__menu {
+      background: none;
+      max-height: none;
+      overflow: visible;
+      padding: 0;
+      transform: none;
+      visibility: visible;
+
+      >ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    &__item {
+      width: auto;
+      height: 64px;
+      padding: 0 16px;
     }
   }
 }

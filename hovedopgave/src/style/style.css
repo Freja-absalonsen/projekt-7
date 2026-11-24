@@ -34,7 +34,6 @@
 body {
   height: 100%;
   overflow-x: hidden;
-  background-color: #007AC3;
 }
 
 main {
@@ -161,6 +160,9 @@ li {
   font: inherit;
   cursor: pointer;
 }
+.header__item:hover {
+  color: #8BC750;
+}
 .header__heading {
   display: block;
   margin-bottom: 4px;
@@ -173,6 +175,41 @@ li {
 }
 .header__submenu--plain li {
   padding-left: 64px;
+}
+@media (min-width: 900px) {
+  .header {
+    display: flex;
+    align-items: center;
+    background: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__menu-wrapper {
+    position: static;
+    flex: 1;
+    width: auto;
+    padding-right: 20px;
+    overflow: visible;
+    pointer-events: auto;
+  }
+  .header__menu {
+    background: none;
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+    transform: none;
+    visibility: visible;
+  }
+  .header__menu > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header__item {
+    width: auto;
+    height: 64px;
+    padding: 0 16px;
+  }
 }
 
 .footer {
