@@ -161,6 +161,10 @@ li{
       padding: 6px 32px;
       font-weight: f.$font-weight-regular;
     }
+
+    &--plain li {
+      padding-left: 64px;
+    }
   }
 }
 

@@ -171,6 +171,9 @@ li {
   padding: 6px 32px;
   font-weight: 400;
 }
+.header__submenu--plain li {
+  padding-left: 64px;
+}
 
 .footer {
   position: relative;

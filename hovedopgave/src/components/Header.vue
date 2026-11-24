@@ -69,7 +69,7 @@ const toggleItem = (name) => {
 
           <li>
             <button class="header__item" :aria-expanded="openItem === 'sport'" @click="toggleItem('sport')">Sportsfag</button>
-            <ul v-show="openItem === 'sport'" class="header__submenu">
+            <ul v-show="openItem === 'sport'" class="header__submenu header__submenu--plain">
               <li><RouterLink :to="{ name: '' }" @click="toggle">Drengefodbold</RouterLink></li>  
               <li><RouterLink :to="{ name: '' }" @click="toggle">Pigefodbold</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Håndbold</RouterLink></li>
@@ -119,7 +119,7 @@ const toggleItem = (name) => {
 
           <li>
             <button class="header__item" :aria-expanded="openItem === 'undervisning'" @click="toggleItem('undervisning')">Undervisning</button>
-            <ul v-show="openItem === 'undervisning'" class="header__submenu">
+            <ul v-show="openItem === 'undervisning'" class="header__submenu header__submenu--plain">
               <li><RouterLink :to="{ name: '' }" @click="toggle">Valgfag</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Kursusfag</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Fællesfag</RouterLink></li>
@@ -161,7 +161,7 @@ const toggleItem = (name) => {
 
           <li>
             <button class="header__item" :aria-expanded="openItem === 'kontakt'" @click="toggleItem('kontakt')">Kontakt</button>
-            <ul v-show="openItem === 'kontakt'" class="header__submenu">
+            <ul v-show="openItem === 'kontakt'" class="header__submenu header__submenu--plain">
               <li><RouterLink :to="{ name: '' }" @click="toggle">Stillingsopslag</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Lærerne</RouterLink></li>
               <li><RouterLink :to="{ name: '' }" @click="toggle">Kontor</RouterLink></li>
