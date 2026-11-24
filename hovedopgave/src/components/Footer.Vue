@@ -31,22 +31,22 @@
                 <ul class="footer__socials" aria-label="Sociale medier">
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.facebook.com/Broby.Sportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Facebook (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/Facebook.svg" alt="Facebook icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/Facebook.svg" alt="Facebook icon" width="40" height="40">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.youtube.com/user/BrobyVideo" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Youtube (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/Youtube.svg" alt="Youtube icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/Youtube.svg" alt="Youtube icon" width="40" height="40">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.instagram.com/BrobySportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Instagram (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/Instagram.svg" alt="Instagram icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/Instagram.svg" alt="Instagram icon" width="40" height="40">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.tiktok.com/@brobysportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Tiktok (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/TikTok.svg" alt="Tiktok icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/TikTok.svg" alt="Tiktok icon" width="40" height="40">
                         </a>
                     </li>
                 </ul>
@@ -83,10 +83,10 @@
                     <RouterLink class="footer__text-link" :to="{name:''}">beachvolley</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">dans</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">madlavning</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">fitness</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">håndbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">løb</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">kajak</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">surf og kite</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">mountainbike</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">musik</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">crossfit</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">spinning</RouterLink>,
-                    <RouterLink class="footer__text-link" :to="{name:''}">styrketræning</RouterLink> og <RouterLink class="footer__text-link" :to="{name:''}">svømning</RouterLink>.
+                    <RouterLink class="footer__text-link" :to="{name:''}">styrketræning</RouterLink> og <RouterLink class="footer__text-link" :to="{name:''}">svømning</RouterLink>. 
+                    <p class="footer__text">Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.</p>
                 </p>
-                <p class="footer__text">Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.</p>
-                <img class="footer__script" src="../assets/" alt="Vi ses på Broby">
+                <img class="footer__script" src="../assets/footer/vi-ses-paa-broby.webp" alt="Vi ses på Broby">
             </section>
         </div>
 
@@ -94,7 +94,7 @@
             <p class="footer__copyright">Copyright © Broby sportsefterskole | Designet af 
                 <a class="footer__copyright-link" href="https://www.odensemediedesign.dk/" target="_blank" rel="noopener noreferrer" aria-label="Odense Media Design (åbner i nyt vindue)">Odense Medie Design</a>
             </p>
-            <img class="footer__payments" src="../assets/" alt="Vi modtager Dankort, Visa, Mastercard og Maestro">
+            <img class="footer__payments" src="../assets/footer/cards.webp" alt="Vi modtager Dankort, Visa, Mastercard og Maestro">
 
         </div>
 
