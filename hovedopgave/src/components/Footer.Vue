@@ -84,7 +84,7 @@
                     <RouterLink class="footer__text-link" :to="{name:''}">håndbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">løb</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">kajak</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">surf og kite</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">mountainbike</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">musik</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">crossfit</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">spinning</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">styrketræning</RouterLink> og <RouterLink class="footer__text-link" :to="{name:''}">svømning</RouterLink>. 
-                    <p class="footer__text">Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.</p>
+                    Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.
                 </p>
                 <img class="footer__script" src="../assets/footer/vi-ses-paa-broby.webp" alt="Vi ses på Broby">
             </section>
