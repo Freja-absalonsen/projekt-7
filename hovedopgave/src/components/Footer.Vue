@@ -7,7 +7,7 @@
 
                 <ul class="footer__contact">
                     <li class="footer__contact-item">
-                        <img class="footer__icon" src="../assets/" alt="Pin ikon" width="20" height="20">
+                        <img class="footer__icon" src="../assets/Icon/Pin.svg" alt="Pin ikon" width="20" height="20">
                         <a 
                             class="footer__contact-text footer__contact-text-link" 
                             href="https://www.google.com/maps/place/Broby+Sportsefterskole/@55.2503472,10.2209578,17z/data=!3m1!4b1!4m6!3m5!1s0x464cd9e533741701:0x2faf67eaaf784d76!8m2!3d55.2503472!4d10.2209578!16s%2Fg%2F1thq8gf2?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D"
@@ -19,11 +19,11 @@
                         </a>
                     </li>
                     <li class="footer__contact-item">
-                        <img class="footer__icon" src="../assets/" alt="Mail icon" width="20" height="20">
+                        <img class="footer__icon" src="../assets/Icon/Mail.svg" alt="Mail icon" width="20" height="20">
                         <a class="footer__contact-text footer__contact-text-link" href="mailto:info@brobysportsefterskole.dk" aria-label="Send en e-mail til info@brobysportsefterskole.dk">info@brobysportsefterskole.dk</a>
                     </li>
                     <li class="footer__contact-item">
-                        <img class="footer__icon" src="../assets/" alt="Telefon icon" width="20" height="20">
+                        <img class="footer__icon" src="../assets/Icon/Mobil.svg" alt="Telefon icon" width="20" height="20">
                         <a class="footer__contact-text footer__contact-text-link" href="tel:+4562631458" aria-label="Ring til +45 62 63 14 58">+45 62 63 14 58</a>
                     </li>
                 </ul>
@@ -31,22 +31,22 @@
                 <ul class="footer__socials" aria-label="Sociale medier">
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.facebook.com/Broby.Sportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Facebook (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/" alt="Facebook icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/Facebook.svg" alt="Facebook icon" width="16" height="16">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.youtube.com/user/BrobyVideo" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Youtube (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/" alt="Youtube icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/Youtube.svg" alt="Youtube icon" width="16" height="16">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.instagram.com/BrobySportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Instagram (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/" alt="Instagram icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/Instagram.svg" alt="Instagram icon" width="16" height="16">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.tiktok.com/@brobysportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Tiktok (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/" alt="Tiktok icon" width="16" height="16">
+                            <img class="footer__social-icon" src="../assets/Icon/TikTok.svg" alt="Tiktok icon" width="16" height="16">
                         </a>
                     </li>
                 </ul>
