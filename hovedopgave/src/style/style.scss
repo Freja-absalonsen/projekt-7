@@ -215,6 +215,7 @@ li{
 .footer{
   position: relative;
   background-color: c.$color-tertiary;
+  color: c.$color-secondary;
 
   &__content{
     display: grid;
@@ -230,15 +231,11 @@ li{
   }
 
   &__heading{
+    font-weight: f.$font-weight-semibold;
     text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 1.7;
-    margin-bottom: 35px;
-  }
-
-  &__title{
-    text-transform: uppercase;
-    margin: 35px 0 10px;
+    margin-bottom: 10px;
   }
 
   &__contact{
@@ -247,7 +244,7 @@ li{
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
   }
 
   &__contact-item{
@@ -259,18 +256,20 @@ li{
   &__icon{
     object-fit: contain;
     flex-shrink: 0;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
   }
 
   &__contact-text{
     text-decoration: none;
+    color: c.$color-secondary;
+    font-style: normal;
+    font-size: f.$font-size-p;
   }
 
   &____contact-text-link{
     text-decoration: none;
   }
-
 
   &__socials{
     list-style: none;
@@ -294,8 +293,8 @@ li{
 
   &__social-icon{
     object-fit: contain;
-    height: 35px;
-    width: 35px;
+    height: 42px;
+    width: 50px;
   }
 
   &__links{
@@ -310,18 +309,27 @@ li{
   &__links-item{
     position: relative;
     padding-left: 18px;
+    font-size: f.$font-size-p;
+    font-weight: f.$font-weight-regular;
     &::before{
       content: "";
+      position: absolute;
       left: 0;
       top: 50%;
       transform: translateY(-50%);
       width: 6px;
       height: 6px;
       border-radius: 50%;
+      background-color: c.$color-septenary;
     }
   }
 
+  &__link--external{
+    color: c.$color-secondary;
+  }
+
   &__link{
+    font-family: f.$font-primary;
     transition: color 0.3s ease;
     &:hover{
       cursor: pointer;
@@ -332,6 +340,8 @@ li{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: f.$font-size-p;
+   
   }
 
   &__logo{
@@ -340,7 +350,8 @@ li{
   }
 
   &__logo-image{
-    
+    height: auto;
+    width: 350px;
     display: block;
     max-width: 100%;
   }
@@ -348,20 +359,22 @@ li{
   &__text{
     width: 100%;
     margin: 0 0 20px;
+    font-size: f.$font-size-p;
   }
 
   &__text-link{
     display: inline;
     color: c.$color-quinary;
     text-decoration: none;
+    font-size: f.$font-size-p;
+    
     &:hover{
       cursor: pointer;
     }
   }
 
   &__script{
-    width: 320px;
-    max-width: 100%;
+    width: 240px;
     height: auto;
     object-fit: contain;
     margin-top: 25px;
@@ -370,7 +383,7 @@ li{
   &__bottom{
     width: min(100% - 40px, 1500px);
     margin: 0 auto;
-    border-top: 1px solid #383838;
+    border-top: 2px solid c.$color-septenary;
     padding: 25px 0;
     display: flex;
     justify-content: space-between;
@@ -381,11 +394,6 @@ li{
   &__copyright{
     margin: 0;
     line-height: 1.6;
-  }
-
-  &__copyright-link{
-    color: inherit;
-    text-decoration: none;
   }
 
   &__payments{
@@ -424,8 +432,8 @@ li{
     }
 
     &__social-icon{
-      height: 25px;
-      width: 25px;
+      height: 32px;
+      width: 40px;
     }
 
     &__script{
@@ -470,7 +478,7 @@ li{
     }
 
     &__contact{
-      gap: 20px;
+      gap: 15px;
     }
 
     &__contact-item{
@@ -483,8 +491,8 @@ li{
     }
 
     &__social-icon{
-      height: 20px;
-      width: 20px;
+      height: 42px;
+      width: 40px;
     }
 
     &__links{
@@ -499,10 +507,6 @@ li{
       width: 200px;
     }
 
-    &__title{
-      margin: 20px 0 10px;
-    }
-
     &__text{
       line-height: 1.7;
     }
@@ -513,8 +517,8 @@ li{
     }
 
     &__icon{
-      width: 20px;
-      height: 20px;
+      width: 35px;
+      height: 35px;
     }
 
     &__bottom{

@@ -2,8 +2,8 @@
     <footer class="footer">
         <div class="footer__content">
             <!-- Kolonne 1: Kontakt -->
-            <section class="footer__column" aria-labelledby="footer-contact-heading">
-                <h2 id="footer-contact-heading" class="footer__heading">Broby<br>Sportsefterskole</h2>
+            <section class="footer__column" aria-labelledby="footer-contact-heading" role="region">
+                <p id="footer-contact-heading" class="footer__heading">Broby Sportsefterskole</p>
 
                 <ul class="footer__contact">
                     <li class="footer__contact-item">
@@ -54,7 +54,7 @@
 
             <!-- Kolonne 2: links -->
             <nav class="footer__column" aria-labelledby="footer-link-heading">
-                <h2 id="footer-link-heading" class="footer__heading">Link</h2>
+                <p id="footer-link-heading" class="footer__heading">Link</p>
                 <ul class="footer__links">
                     <li class="footer__links-item"><RouterLink class="footer__link" active-class="footer__link--active" :to="{name:'Om skolen'}">Om skolen</RouterLink></li>
                     <li class="footer__links-item"><RouterLink class="footer__link" active-class="footer__link--active" :to="{name:'Presse'}">Presse</RouterLink></li>
@@ -72,14 +72,14 @@
             </nav>
 
             <!-- Kolonne 3: Om skolen -->
-            <section class="footer__column footer__column--about" aria-labelledby="footer-about-heading">
+            <section class="footer__column footer__column--about" aria-labelledby="footer-about-heading" role="region">
                 <RouterLink class="footer__logo" :to="{name: 'home'}" aria-label="Broby Sportsefterskole - gå til forside">
                     <img class="footer__logo-image" src="../assets/logo.png" alt="Broby Sportsefterskole logo">
                 </RouterLink>
 
-                <h3 id="footer-about-heading" class="footer__title">Efterskolen med muligheder</h3>
+                <p id="footer-about-heading" class="footer__heading">Efterskolen med muligheder</p>
                 <p class="footer__text">Vi vil være en efterskole, der giver dig rigtig mange muligheder for at vælge mellem vores mange valgfag. Du har mulighed for at vælge mindst tre forskellige valgfag om ugen.
-                    <RouterLink class="footer__text-link" :to="{name:''}">fodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">Spring</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">pigefodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">badminton</RouterLink>,
+                    <RouterLink class="footer__text-link" :to="{name:''}">Fodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">Spring</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">pigefodbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">badminton</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">beachvolley</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">dans</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">madlavning</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">fitness</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">håndbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">løb</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">kajak</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">surf og kite</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">mountainbike</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">musik</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">crossfit</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">spinning</RouterLink>,
@@ -91,9 +91,7 @@
         </div>
 
         <div class="footer__bottom">
-            <p class="footer__copyright">Copyright © Broby sportsefterskole | Designet af 
-                <a class="footer__copyright-link" href="https://www.odensemediedesign.dk/" target="_blank" rel="noopener noreferrer" aria-label="Odense Media Design (åbner i nyt vindue)">Odense Medie Design</a>
-            </p>
+            <p class="footer__copyright">Copyright © Broby sportsefterskole | Designet af Powerpuff </p>
             <img class="footer__payments" src="../assets/footer/cards.webp" alt="Vi modtager Dankort, Visa, Mastercard og Maestro">
 
         </div>
