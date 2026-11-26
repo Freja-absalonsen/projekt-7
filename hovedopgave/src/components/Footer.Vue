@@ -7,7 +7,7 @@
 
                 <ul class="footer__contact">
                     <li class="footer__contact-item">
-                        <img class="footer__icon" src="../assets/Icon/Pin.svg" alt="Pin ikon" width="20" height="20">
+                        <img class="footer__icon" src="../assets/Icon/Pin.svg" alt="Pin ikon">
                         <a 
                             class="footer__contact-text footer__contact-text-link" 
                             href="https://www.google.com/maps/place/Broby+Sportsefterskole/@55.2503472,10.2209578,17z/data=!3m1!4b1!4m6!3m5!1s0x464cd9e533741701:0x2faf67eaaf784d76!8m2!3d55.2503472!4d10.2209578!16s%2Fg%2F1thq8gf2?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D"
@@ -19,11 +19,11 @@
                         </a>
                     </li>
                     <li class="footer__contact-item">
-                        <img class="footer__icon" src="../assets/Icon/Mail.svg" alt="Mail icon" width="20" height="20">
+                        <img class="footer__icon" src="../assets/Icon/Mail.svg" alt="Mail icon">
                         <a class="footer__contact-text footer__contact-text-link" href="mailto:info@brobysportsefterskole.dk" aria-label="Send en e-mail til info@brobysportsefterskole.dk">info@brobysportsefterskole.dk</a>
                     </li>
                     <li class="footer__contact-item">
-                        <img class="footer__icon" src="../assets/Icon/Mobil.svg" alt="Telefon icon" width="20" height="20">
+                        <img class="footer__icon" src="../assets/Icon/Mobil.svg" alt="Telefon icon">
                         <a class="footer__contact-text footer__contact-text-link" href="tel:+4562631458" aria-label="Ring til +45 62 63 14 58">+45 62 63 14 58</a>
                     </li>
                 </ul>
@@ -31,22 +31,22 @@
                 <ul class="footer__socials" aria-label="Sociale medier">
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.facebook.com/Broby.Sportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Facebook (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/Facebook.svg" alt="Facebook icon" width="40" height="40">
+                            <img class="footer__social-icon" src="../assets/Icon/Facebook.svg" alt="Facebook icon">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.youtube.com/user/BrobyVideo" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Youtube (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/Youtube.svg" alt="Youtube icon" width="40" height="40">
+                            <img class="footer__social-icon" src="../assets/Icon/Youtube.svg" alt="Youtube icon">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.instagram.com/BrobySportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Instagram (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/Instagram.svg" alt="Instagram icon" width="40" height="40">
+                            <img class="footer__social-icon" src="../assets/Icon/Instagram.svg" alt="Instagram icon">
                         </a>
                     </li>
                     <li class="footer__socials-item">
                         <a class="footer__social-link" href="https://www.tiktok.com/@brobysportsefterskole" target="_blank" rel="noopener noreferrer" aria-label="Broby Sportsefterskole på Tiktok (åbner i nyt vindue)">
-                            <img class="footer__social-icon" src="../assets/Icon/TikTok.svg" alt="Tiktok icon" width="40" height="40">
+                            <img class="footer__social-icon" src="../assets/Icon/TikTok.svg" alt="Tiktok icon">
                         </a>
                     </li>
                 </ul>
@@ -74,7 +74,7 @@
             <!-- Kolonne 3: Om skolen -->
             <section class="footer__column footer__column--about" aria-labelledby="footer-about-heading">
                 <RouterLink class="footer__logo" :to="{name: 'home'}" aria-label="Broby Sportsefterskole - gå til forside">
-                    <img class="footer__logo-image" src="../assets/logo.png" alt="Broby Sportsefterskole logo" height="100" width="auto">
+                    <img class="footer__logo-image" src="../assets/logo.png" alt="Broby Sportsefterskole logo">
                 </RouterLink>
 
                 <h3 id="footer-about-heading" class="footer__title">Efterskolen med muligheder</h3>
@@ -84,8 +84,8 @@
                     <RouterLink class="footer__text-link" :to="{name:''}">håndbold</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">løb</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">kajak</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">surf og kite</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">mountainbike</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">musik</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">crossfit</RouterLink>, <RouterLink class="footer__text-link" :to="{name:''}">spinning</RouterLink>,
                     <RouterLink class="footer__text-link" :to="{name:''}">styrketræning</RouterLink> og <RouterLink class="footer__text-link" :to="{name:''}">svømning</RouterLink>. 
-                    Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.
                 </p>
+                <p class="footer__text">Er du sporty og vil have mange valg, så er Broby Sportsefterskole lige dig.</p>
                 <img class="footer__script" src="../assets/footer/vi-ses-paa-broby.webp" alt="Vi ses på Broby">
             </section>
         </div>

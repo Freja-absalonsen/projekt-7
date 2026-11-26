@@ -222,7 +222,7 @@ li{
     gap: 40px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 70 20px 50px;
+    padding: 70px 20px 50px;
   }
 
   &__column{
@@ -259,6 +259,8 @@ li{
   &__icon{
     object-fit: contain;
     flex-shrink: 0;
+    width: 35px;
+    height: 35px;
   }
 
   &__contact-text{
@@ -266,7 +268,7 @@ li{
   }
 
   &____contact-text-link{
-    text-decoration-color: none;
+    text-decoration: none;
   }
 
 
@@ -292,6 +294,8 @@ li{
 
   &__social-icon{
     object-fit: contain;
+    height: 35px;
+    width: 35px;
   }
 
   &__links{
@@ -336,6 +340,7 @@ li{
   }
 
   &__logo-image{
+    
     display: block;
     max-width: 100%;
   }
@@ -392,8 +397,8 @@ li{
 
     &__content{
       grid-template-columns: 1fr 1fr;
-      gap: 50px 40px;
-      padding-bottom: 70px;
+      gap: 50px 35px;
+      padding: 0 30px 60px;
     }
 
     &__column--about{
@@ -401,25 +406,128 @@ li{
     }
 
     &__logo-image{
-      width: 380px;
+      width: 280px;
+      max-width: 100%;
+    }
+
+    &__heading{
+      margin-bottom: 25px;
+    }
+
+    &__contact{
+      gap: 25px;
+    }
+
+    &__icon{
+      width: 25px;
+      height: 25px;
+    }
+
+    &__social-icon{
+      height: 25px;
+      width: 25px;
+    }
+
+    &__script{
+      width: 200px;
+      max-width: 100%;
+      height: auto;
     }
 
     &__bottom{
-      align-items: flex-start;
+      align-items: center;
+      gap: 20px;
     }
+
+    &__payments{
+      max-width: 220px;
+      width: 100%;
+      height: auto;
+    }
+
   }
 
   @media (max-width: 640px){
-    padding-top: 50px;
+    padding-top: 40px;
 
     &__content{
       grid-template-columns: 1fr;
-      padding-bottom: 50px;
+      gap: 45px;
+      padding: 0 20px 40px;
+    }
+
+    &__column{
+      width: 100%;
+    }
+
+    &__column--about{
+      grid-column: auto;
+    }
+
+    &__heading{
+      margin: 0 0 20px;
+      line-height: 1.5;
+    }
+
+    &__contact{
+      gap: 20px;
+    }
+
+    &__contact-item{
+      gap: 15px;
+    }
+
+    &__socials{
+      margin-top: 30px;
+      gap: 15px;
+    }
+
+    &__social-icon{
+      height: 20px;
+      width: 20px;
+    }
+
+    &__links{
+      gap: 15px;
+    }
+
+    &__logo{
+      margin-bottom: 10px;
+    }
+
+    &__logo-image{
+      width: 200px;
+    }
+
+    &__title{
+      margin: 20px 0 10px;
+    }
+
+    &__text{
+      line-height: 1.7;
+    }
+
+    &__script{
+      width: 200px;
+      margin-top: 20px;
+    }
+
+    &__icon{
+      width: 20px;
+      height: 20px;
     }
 
     &__bottom{
       flex-direction: column;
       align-items: flex-start;
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    &__payments{
+      max-width: 150px;
+      width: 100%;
+      height: auto;
     }
 
   }
